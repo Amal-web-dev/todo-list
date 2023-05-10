@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:active {
+    scale: .9;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .add {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    background-color: #007FFF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-left: 20px;
+  }
+  
+  .add:hover {
+    background-color: white;
+    border: 2px solid #007FFF;
+    color: #007FFF;
+    box-shadow: 0 0 10px 10px #007FFF;
+  }
+  
+  .input {
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    width: 250px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 100px;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    text-align: start;
+    padding: 10px;
+  }
+  
+  .time {
+      margin-top: 10px;
+  }
+  
+  .card-classlist {
+      display: flex;
+      gap: 30px;
+      margin: 50px 0 0 50px;
+      flex-wrap: wrap;
+  }
+
+  .top {
+      margin: 50px 0 20px 0;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.error {
+    border: 2px solid red; 
+    
+}
+
+.error-btn {
+  background-color: red;
+}
+
+.error-btn:hover {
+  border: 2px solid red;
+  color: red;
+  box-shadow: 0 0 10px 10px red;
+}
