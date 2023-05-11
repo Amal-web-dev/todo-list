@@ -49,6 +49,7 @@ button:active {
     border-radius: 10px;
     text-align: start;
     padding: 10px;
+    position: relative;
   }
   
   .time {
@@ -83,4 +84,69 @@ button:active {
   border: 2px solid red;
   color: red;
   box-shadow: 0 0 10px 10px red;
+}
+
+.img-close {
+  height: 20px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  cursor: pointer;
+}
+
+.trush {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.trush-bum {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 100%;
+  animation: trush-bum 3s 0s;
+}
+
+@keyframes trush-bum {
+  0% {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    border: none;
+  } 
+  50% {
+    height: 20px;
+    width: 20px;
+    margin-left: 1400px;
+    background-color: black;
+    border: none;
+  }
+  100% {
+    margin-top: 660px;
+    background-color: black;
+    margin-left: 1400px;
+    border: none;
+  }
+  
+}
+
+.btn-done {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+
+.done {
+  margin-top: 10px;
+  transition: .3s;
+}
+
+.text {
+  text-decoration: line-through;
+  text-decoration-color: red;
 }
